@@ -15,7 +15,7 @@ cd ..
 # Étape 2 : Création du fichier pour le 2ème chiffre sans le chiffre dans le fichier
 mkdir 2eme_chiffre
 cd 2eme_chiffre
-echo "Modifiez les permissions de 'fichier' pour avoir rwx/r/r " > "Instructions"
+echo "Modifiez les permissions de 'fichier' pour avoir rwx/r/r. Lancez le script verification_2.sh une fois que c'est fait :)" > "Instructions"
 echo "modifiez mes permissions" > "fichier"
 chmod 644 fichier
 cd ..
@@ -23,7 +23,7 @@ cd ..
 # Étape 3 : Création du fichier pour le 3ème chiffre sans le chiffre dans le fichier
 mkdir 3eme_chiffre
 cd 3eme_chiffre
-echo "Déplacez le 'fichier' dans un dossier 'trois' qu'il faut créer dans ce répértoire" > Instructions
+echo "Déplacez le 'fichier' dans un dossier 'trois' qu'il faut créer dans ce répértoire. Lancez le script verification_3.sh une fois que c'est fait :)" > Instructions
 echo "Fichier a deplacer" > "fichier"
 cd .. 
 
@@ -50,4 +50,5 @@ chmod +x verification_3.sh
 # Instructions finales pour le joueur
 echo "L'escape game est prêt ! Suivez les instructions ci-dessous pour trouver le code à trois chiffres."
 echo "Allez dans le dossier game_files et consultez bien les instruction pour chaque chiffre."
+echo "Une fois que vous aurez trouvé les trois chiffres, lancez le script cadenas.sh"
 
